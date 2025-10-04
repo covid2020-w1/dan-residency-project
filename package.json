@@ -1,0 +1,20 @@
+{
+  "name": "dan-residency-project",
+  "version": "1.0.0",
+  "description": "an interactive map to help Dan keep track of his residency applications",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/covid2020-w1/dan-residency-project.git"
+  },
+  "author": "David Jelke",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/covid2020-w1/dan-residency-project/issues"
+  },
+  "homepage": "https://github.com/covid2020-w1/dan-residency-project#readme"
+}
