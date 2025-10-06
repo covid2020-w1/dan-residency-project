@@ -1,3 +1,7 @@
 p{
     color: red;
 }
+
+#map{
+    height: 70vh;
+}

@@ -7,22 +7,18 @@ const PORT = 8000
 
 
 const server = http.createServer( async(req, res) => {
-    //now let's create a way for all the files to get served
 
     const __dirname = import.meta.dirname
 
     const pathToResource = path.join(
         __dirname, 
         "public",  
-        req.url === "/" ? "index.html" : req.url)
-        
-
-    //now you just need to plug in pathToResource into path.extname() and create the getContentType function to serve static
+        req.url === "/" ? "index.html" : req.url
+    )
     
     const ext = path.extname(pathToResource)
 
     const contentTypes = {
-        ".html": "text/html",
         ".css": "text/css",
         ".js": "text/javascript",
         ".json": "application/json",
@@ -31,9 +27,27 @@ const server = http.createServer( async(req, res) => {
         ".png": "image/png",
     }
 
-    const content = await fs.readFile(pathToResource)
+    const contentType = contentTypes[ext] || "text/html"
 
-    sendResponse(res, 200, contentTypes[ext], content)
+    try{
+        const content = await fs.readFile(pathToResource)
+        sendResponse(res, 200, contentType, content)
+    }catch(err){
+        console.error(err)
+
+        if(err.code === "ENOENT"){
+            sendResponse(res, 404, "text/html", "<h1> 404 Error- File not found</h1>")
+        }else if(err.code = "dd"){
+            sendResponse(res, 403, "text/html", "<h1>403 Error- Forbidden</h1>")
+        }else{
+            sendResponse(res, 500, "text/html", "<h1>Server error</h1>")
+        }
+        
+    }
+
+
 })
 
 server.listen(PORT, () => console.log(`Connected to port ${PORT}`))
+
+//all the files have been served. what now? do i try adding the map? I think so. i could practice with dummy data, and then work on using real json data or something
