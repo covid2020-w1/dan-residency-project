@@ -1,0 +1,29 @@
+[
+    {
+        "program": "Yale Medical Center",
+        "city": "New Haven",
+        "state": "CT",
+        "lat": 41,
+        "lon": -78,
+        "status": "applied",
+        "note": ""
+    },
+        {
+        "program": "BayCare",
+        "city": "Tampa",
+        "state": "FL",
+        "lat": 29,
+        "lon": -83,
+        "status": "applied",
+        "note": ""
+    },
+        {
+        "program": "Emory",
+        "city": "Atlanta",
+        "state": "GA",
+        "lat": 33,
+        "lon": -83,
+        "status": "applied",
+        "note": ""
+    }
+]

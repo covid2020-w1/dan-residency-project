@@ -13,4 +13,18 @@ L.tileLayer(
     }
 ).addTo(map)
 
-L.marker([40, -100]).addTo(map)
+//wait for the file to fetch the data from the server
+try{
+    const response = await fetch("http://localhost:8000/api")
+    const residencies = await response.json()
+
+    residencies.forEach(residency => {
+        //create a marker at the associated residency coordinates
+        const marker = L.marker([residency.lat, residency.lon]).addTo(map)
+
+        //create a popup that when clicked shows the program name, city, and app status
+        marker.bindPopup(`residency: ${residency.program}<br> city: ${residency.city}<br> ${residency.status}`)
+    })
+}catch(err){
+    console.log(err)
+}
