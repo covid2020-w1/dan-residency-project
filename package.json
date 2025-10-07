@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/covid2020-w1/dan-residency-project/issues"
   },
-  "homepage": "https://github.com/covid2020-w1/dan-residency-project#readme"
+  "homepage": "https://github.com/covid2020-w1/dan-residency-project#readme",
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  }
 }

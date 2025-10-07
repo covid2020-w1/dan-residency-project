@@ -8,11 +8,14 @@ const PORT = 8000
 
 const server = http.createServer( async(req, res) => {
 
+    //handle any api fetch requests from the client
     if(req.url.startsWith("/api")){
+
+        //handle get requests
         if(req.method === "GET"){
             try{
                 //wait to read the data from residencies.json into a variable called content
-                const content = await fs.readFile(path.join("data", "residencies.json"))
+                const content = await fs.readFile(path.join("data", "residencies_with_coords.json"))
                 //send the response
                 sendResponse(res, 200, "application/json", content)
             }catch(err){
@@ -26,7 +29,8 @@ const server = http.createServer( async(req, res) => {
             }
 
         }
-
+    
+    //serve static 
     }else if(!req.url.startsWith("/api")){
         
         const __dirname = import.meta.dirname
@@ -70,4 +74,4 @@ const server = http.createServer( async(req, res) => {
 
 server.listen(PORT, () => console.log(`Connected to port ${PORT}`))
 
-//all the files have been served. what now? do i try adding the map? I think so. i could practice with dummy data, and then work on using real json data or something
+//Then, focus on creating a dropdown html (i think select?) that lets the user POST data to the backend. Then, figure out how to display the data as a modal/side panel instead of a popup. Then, decide on whether you want to self-host with express.js or use supabase and set that up. Then figure out how you'll convert the json to a MySQL data table and plug that in to the front end. that's it.

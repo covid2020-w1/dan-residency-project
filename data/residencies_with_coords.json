@@ -5,7 +5,9 @@
     "city": "New Haven",
     "state": "CT",
     "note": "Program Type: University-based\n1st year Positions: 19\nProgram Length: 4 year\nStart Date: June/July\n1st Year Salary: $86,080\nYearly increase: Yes\nInsurance Benefits: Full Medical (you + domestic partner)\n                                Full In and Out Patient Mental\n                                Full Group Life\n                                Partial Dental\n                                Full Disability\nJazz Scene: ample stage time and connections without overwhelming competition\nAVG House Rent: $2,325",
-    "status": "applied"
+    "status": "applied",
+    "lat": 41.365709,
+    "lng": -72.927507
   },
   {
     "program": "George Washington Univ-DC",
@@ -13,7 +15,9 @@
     "city": "Washington",
     "state": "D.C.",
     "note": "Program Type: University-based\n1st year Positions: 10\nProgram Length: 4\nStart Date: July 1\n1st Year Salary: 72,744\nYearly increase: Yes\nInsurance Benefits: Partial Medical (you + domestic partner)\n                                Partial In and Out Patient Mental\n                                Full Group Life\n                                Partial Dental\n                                Full Disability\nJazz Scene: Many opportunities to perform, network, and grow\nAVG House Rent: $3,800",
-    "status": "applied"
+    "status": "applied",
+    "lat": 38.911936,
+    "lng": -77.016719
   },
   {
     "program": "HCA Healthcare East FL Division GME (Aventura)",
@@ -21,7 +25,9 @@
     "city": "Aventura",
     "state": "FL",
     "note": "Program Type: Community-based university affiliated\n1st year Positions: 12\nProgram Length: 3\nStart Date: June 23 / July 1\n1st Year Salary: 63,149\nYearly increase: Yes\nInsurance Benefits: Partial Medical (you + domestic partner)\n                                Partial In and Out Patient Mental\n                                Partial Group Life\n                                Partial Dental\n                                Partial Disability\nJazz Scene: Not a major jazz hub, but nearby Miami and Fort Lauderdale\nAVG House Rent: $14000",
-    "status": "interview offered"
+    "status": "interview offered",
+    "lat": 25.959533,
+    "lng": -80.13967
   },
   {
     "program": "FAU-Schmidt COM-FL",
@@ -29,7 +35,9 @@
     "city": "Boca Raton",
     "state": "FL",
     "note": "Program Type: Community-based university affiliated\n1st year Positions: 6\nProgram Length: 3\nStart Date: July 1\n1st Year Salary: 61,295\nYearly increase: Yes\nInsurance Benefits: Full Medical (just you)\n                                Full In and Out Patient Mental\n                                Full Group Life\n                                Full Dental\n                                Full Disability\nJazz Scene: some jazz opportunities - more in Miami/Ft Lauderdale\nAVG House Rent: $3,200",
-    "status": "applied"
+    "status": "applied",
+    "lat": 26.348017,
+    "lng": -80.218991
   },
   {
     "program": "HCA Healthcare/USF Morsani GME (Brandon)",
@@ -37,7 +45,9 @@
     "city": "Brandon",
     "state": "FL",
     "note": "Program Type: Community-based university affiliated\n1st year Positions: 15\nProgram Length: 3\nStart Date: July 1\n1st Year Salary: 63,149\nYearly increase: Yes\nInsurance Benefits: Partial Medical (you + domestic partner)\n                                Partial In and Out Patient Mental\n                                Partial Group Life\n                                Partial Dental\n                                Partial Disability\nJazz Scene: Not really until you go to Tampa area\nAVG House Rent: $2,323",
-    "status": "applied"
+    "status": "applied",
+    "lat": 28.119579,
+    "lng": -82.451959
   },
   {
     "program": "HCA Healthcare/USF Morsani GME (Oak Hill)",
@@ -45,7 +55,9 @@
     "city": "Brooksville",
     "state": "FL",
     "note": "Program Type: Community-based\n1st year Positions: 6\nProgram Length: 3\nStart Date: July 1\n1st Year Salary: 61,048\nYearly increase: Yes\nInsurance Benefits: Partial Medical (you + domestic partner)\n                                Partial In and Out Patient Mental\n                                Full Group Life\n                                Partial Dental\n                                Partial Disability\nJazz Scene: occasional jazz events - bigger in Tampa area\nAVG House Rent: $1,900",
-    "status": "applied"
+    "status": "applied",
+    "lat": 28.586197,
+    "lng": -82.395858
   },
   {
     "program": "Broward HealthMed Car-FL",
@@ -53,7 +65,9 @@
     "city": "Fort Lauderdale",
     "state": "FL",
     "note": "Program Type: Community-based university affiliated\n1st year Positions: 14\nProgram Length: 3\nStart Date: July 1\n1st Year Salary: 59,847\nYearly increase: Yes\nInsurance Benefits: Partial Medical (you + domestic partner)\n                                Partial In and Out Patient Mental\n                                N/A Group Life\n                                Partial Dental\n                                N/A Disability\nJazz Scene: ample opportunities with a supportive music community\nAVG House Rent: $2,700",
-    "status": "applied"
+    "status": "applied",
+    "lat": 26.121323,
+    "lng": -80.127909
   },
   {
     "program": "U Central FL/HCA Healthcare GME (Gainesville)",
@@ -61,7 +75,9 @@
     "city": "Gainsville",
     "state": "FL",
     "note": "Program Type: Community-based university affiliated\n1st year Positions: 8\nProgram Length: 3\nStart Date: July 1\n1st Year Salary: 62,310\nYearly increase: Yes\nInsurance Benefits: Partial Medical (you + domestic partner)\n                                Partial In and Out Patient Mental\n                                Full Group Life\n                                Partial Dental\n                                Partial Disability\nJazz Scene: solid opportunities, regular jam sessions and outdoor jazz events\nAVG House Rent: $1,850",
-    "status": "applied"
+    "status": "applied",
+    "lat": 29.648993,
+    "lng": -82.324515
   },
   {
     "program": "U Florida COM-Shands Hosp",
@@ -69,7 +85,9 @@
     "city": "UF Health Shands",
     "state": "FL",
     "note": "Program Type: University-based\n1st year Positions: 14\nProgram Length: 3\nStart Date: July 1\n1st Year Salary: 67,177\nYearly increase: Yes\nInsurance Benefits: Full Medical (you + domestic partner)\n                                Full In and Out Patient Mental\n                                Full Group Life\n                                N/A Dental\n                                Full Disability\nJazz Scene: solid opportunities, regular jam sessions and outdoor jazz events\nAVG House Rent:$1,850",
-    "status": "interview offered"
+    "status": "interview offered",
+    "lat": 28.45743,
+    "lng": -82.409148
   },
   {
     "program": "Memorial Healthcare System-FL",
@@ -77,7 +95,9 @@
     "city": "Hollywood",
     "state": "FL",
     "note": "Program Type: Community-based university affiliated\n1st year Positions: 10\nProgram Length: 3\nStart Date: June 20, July 1\n1st Year Salary: 61,734\nYearly increase: Yes\nInsurance Benefits: Partial Medical (just you)\n                                Partial In and Out Patient Mental\n                                Full Group Life\n                                Partial Dental\n                                Partial Disability\nJazz Scene: several opportunities\nAVG House Rent: $3,300",
-    "status": "interview offered"
+    "status": "interview offered",
+    "lat": 26.027459,
+    "lng": -80.120219
   },
   {
     "program": "U Florida COM-Jacksonville",
@@ -85,7 +105,9 @@
     "city": "Jacksonville",
     "state": "FL",
     "note": "Program Type: Community-based university affiliated\n1st year Positions: 15\nProgram Length: 3\nStart Date: July 1\n1st Year Salary: 67,177\nYearly increase: Yes\nInsurance Benefits: Full Medical (you + domestic partner)\n                                Full In and Out Patient Mental\n                                Full Group Life\n                                N/A Dental\n                                Full Disability\nJazz Scene: regular jazz jams, festivals, and organizations that support live jazz\nAVG House Rent: $2,270",
-    "status": "applied"
+    "status": "applied",
+    "lat": 30.389438,
+    "lng": -81.680806
   },
   {
     "program": "U Central FL/HCA Healthcare GME (Orlando)",
@@ -93,7 +115,9 @@
     "city": "Kissimme",
     "state": "FL",
     "note": "Program Type: Community-based university affiliated\n1st year Positions: 9\nProgram Length: 3\nStart Date: July 1\n1st Year Salary: ????\nYearly increase: ?????\nInsurance Benefits: ?????\nJazz Scene: limited\nAVG House Rent: $2,475",
-    "status": "applied"
+    "status": "applied",
+    "lat": 28.30639,
+    "lng": -81.425522
   },
   {
     "program": "Lakeland Regional Health FL",
@@ -101,7 +125,9 @@
     "city": "Lakeland",
     "state": "FL",
     "note": "Program Type: Community-based university affiliated\n1st year Positions: 15\nProgram Length: 3\nStart Date: June 16 / July 1\n1st Year Salary: ????\nYearly increase: ????\nInsurance Benefits: ????\nJazz Scene: some promise\nAVG House Rent: $2,016",
-    "status": "applied"
+    "status": "applied",
+    "lat": 28.035908,
+    "lng": -81.899669
   },
   {
     "program": "HCA Healthcare East FL Division GME (Kendall)",
@@ -109,7 +135,9 @@
     "city": "Miami",
     "state": "FL",
     "note": "Program Type: Community-based university affiliated\n1st year Positions: 12\nProgram Length: 3\nStart Date: July 1\n1st Year Salary: 63,149\nYearly increase: Yes\nInsurance Benefits: Partial Medical (you + domestic partner)\n                                Partial In and Out Patient Mental\n                                Full Group Life\n                                Partial Dental\n                                Partial Disability\nJazz Scene: very good\nAVG House Rent: $5,977",
-    "status": "applied"
+    "status": "applied",
+    "lat": 25.558428,
+    "lng": -80.458168
   },
   {
     "program": "U Miami/Jackson Health System-FL",
@@ -117,7 +145,9 @@
     "city": "Miami",
     "state": "FL",
     "note": "Program Type: Community-based university affiliated\n1st year Positions: 20\nProgram Length: 3\nStart Date: June 24 / July 1\n1st Year Salary: 70,789\nYearly increase: Yes\nInsurance Benefits: Full Medical (you) & Partical Medical (domestic pertner)\n                                Partial In and Out Patient Mental\n                                Full Group Life\n                                Full Dental\n                                Partial Disability\nJazz Scene: very good\nAVG House Rent: $5,977",
-    "status": "interview offered"
+    "status": "interview offered",
+    "lat": 25.558428,
+    "lng": -80.458168
   },
   {
     "program": "Mt Sinai Med Ctr-Miami FL",
@@ -125,7 +155,9 @@
     "city": "Miami Beach",
     "state": "FL",
     "note": "Program Type: Community-based university affiliated\n1st year Positions: 8\nProgram Length: 3\nStart Date: July 1\n1st Year Salary: ????\nYearly increase: ????\nInsurance Benefits: ????\nJazz Scene: vibrant opportunities\nAVG House Rent: $8,400",
-    "status": "applied"
+    "status": "applied",
+    "lat": 25.851854,
+    "lng": -80.138726
   },
   {
     "program": "Ochsner Clinic Foundation-LA",
@@ -133,7 +165,9 @@
     "city": "New Orleans",
     "state": "LA",
     "note": "Program Type: Community-based university affiliated\n1st year Positions: 7\nProgram Length: 3\nStart Date: July 1\n1st Year Salary: ????\nYearly increase: ????\nInsurance Benefits: ????\nJazz Scene: growing jazz scene\nAVG House Rent: $1,725",
-    "status": "applied"
+    "status": "applied",
+    "lat": 29.958304,
+    "lng": -90.077
   },
   {
     "program": "U Central FL/HCA Healthcare GME (Ocala)",
@@ -141,7 +175,9 @@
     "city": "Ocala",
     "state": "FL",
     "note": "Program Type: Community-based\n1st year Positions: 12\nProgram Length: 3\nStart Date: July 1\n1st Year Salary: 61,963\nYearly increase: Yes\nInsurance Benefits: Partial Medical (you + domestic partner)\n                                Partial In and Out Patient Mental\n                                Full Group Life\n                                Partial Dental\n                                Partial Disability\nJazz Scene: very limited - Branch to Jacksonville\nAVG House Rent: $1,750",
-    "status": "applied"
+    "status": "applied",
+    "lat": 29.198907,
+    "lng": -82.087425
   },
   {
     "program": "HCA Florida Orange Park Hosp",
@@ -149,7 +185,9 @@
     "city": "Orange Park",
     "state": "FL",
     "note": "Program Type: Community-based\n1st year Positions: 8\nProgram Length: 3\nStart Date: July 1\n1st Year Salary: 66,716\nYearly increase: Yes\nInsurance Benefits: Full Medical (you)\n                                Partial Out Patient Mental (N/A In Patient)\n                                Full Group Life\n                                N/A Dental\n                                N/A Disability\nJazz Scene: excellent\nAVG House Rent: $1,975",
-    "status": "applied"
+    "status": "applied",
+    "lat": 30.152238,
+    "lng": -81.797016
   },
   {
     "program": "AdventHealth Florida (East Orlando)",
@@ -157,7 +195,9 @@
     "city": "Orlando",
     "state": "FL",
     "note": "Program Type: Community-based university affiliated\n1st year Positions: 18\nProgram Length: 3\nStart Date: June 23\n1st Year Salary: 62,603\nYearly increase: Yes\nInsurance Benefits: Partial Medical (you + domestic partner)\n                                Partial In and Out Patient Mental\n                                Full Group Life\n                                Partial Dental\n                                Full Disability\nJazz Scene: excellent\nAVG House Rent: $1,975",
-    "status": "applied"
+    "status": "applied",
+    "lat": 28.545179,
+    "lng": -81.373291
   },
   {
     "program": "Orlando Health-FL",
@@ -165,7 +205,9 @@
     "city": "Orlando",
     "state": "FL",
     "note": "Program Type: Community-based university affiliated\n1st year Positions: 13\nProgram Length: 3\nStart Date: July 1\n1st Year Salary: ????\nYearly increase: ????\nInsurance Benefits: ????\nJazz Scene: some jazz opportunities\nAVG House Rent: $4,311",
-    "status": "applied"
+    "status": "applied",
+    "lat": 28.545179,
+    "lng": -81.373291
   },
   {
     "program": "HCA Healthcare East FL Division GME (Westside)",
@@ -173,7 +215,9 @@
     "city": "Plantation",
     "state": "FL",
     "note": "Program Type: Community-based university affiliated\n1st year Positions: 6\nProgram Length: 3\nStart Date: July 1\n1st Year Salary: ????\nYearly increase: ????\nInsurance Benefits: ????\nJazz Scene: bi-weekly Jams and other opportunities\nAVG House Rent: $2,580",
-    "status": "applied"
+    "status": "applied",
+    "lat": 26.148252,
+    "lng": -80.20782
   },
   {
     "program": "HCA Healthcare East FL Division GME (St Lucie)",
@@ -181,7 +225,9 @@
     "city": "Port St Lucie",
     "state": "FL",
     "note": "Program Type: Community-based university affiliated\n1st year Positions: 9\nProgram Length: 3\nStart Date: July 1\n1st Year Salary: 65,688\nYearly increase: Yes\nInsurance Benefits: Partial Medical (you)\n                                Partial In and Out Patient Mental\n                                Full Group Life\n                                Partial Dental\n                                Full Disability\nJazz Scene: excellent - Jazz Club of Sarasota, with over 70 events annually\nAVG House Rent: $2,500",
-    "status": "applied"
+    "status": "applied",
+    "lat": 27.312492,
+    "lng": -80.313322
   },
   {
     "program": "Florida State University COM (Sarasota)",
@@ -189,7 +235,9 @@
     "city": "Sarasota",
     "state": "FL",
     "note": "Program Type: Community-based university affiliated\n1st year Positions: 10\nProgram Length: 3\nStart Date: July 1\n1st Year Salary: ????\nYearly increase: ????\nInsurance Benefits:  ????\nJazz Scene: thriving jazz scene\nAVG House Rent: $2,100",
-    "status": "applied"
+    "status": "applied",
+    "lat": 27.335023,
+    "lng": -82.537169
   },
   {
     "program": "BayCare Health System- FL",
@@ -197,7 +245,9 @@
     "city": "Tampa",
     "state": "FL",
     "note": "Program Type: University-based\n1st year Positions: 10\nProgram Length: 3\nStart Date: July 1 \n1st Year Salary: ????\nYearly increase: ????\nInsurance Benefits: ????\nJazz Scene: thriving jazz scene\nAVG House Rent: $2,100",
-    "status": "applied"
+    "status": "applied",
+    "lat": 27.996097,
+    "lng": -82.582035
   },
   {
     "program": "U South Florida Morsani COM-Tampa",
@@ -205,7 +255,9 @@
     "city": "Tampa",
     "state": "FL",
     "note": "Program Type: University-based\n1st year Positions: 21\nProgram Length: 3\nStart Date: July 1\n1st Year Salary: 69,191\nYearly increase: Yes\nInsurance Benefits: Full Medical (you) & Partical Medical (domestic pertner)\n                                Full In and Out Patient Mental\n                                Full Group Life\n                                Partial Dental\n                                Full Disability\nJazz Scene: supportive environment for emerging jazz  artists\nAVG House Rent: $2,100",
-    "status": "applied"
+    "status": "applied",
+    "lat": 27.996097,
+    "lng": -82.582035
   },
   {
     "program": "Emory Univ SOM-GA",
@@ -213,7 +265,9 @@
     "city": "Atlanta",
     "state": "GA",
     "note": "Program Type: Community-based university affiliated\n1st year Positions: 12\nProgram Length: 4\nStart Date: July 1\n1st Year Salary: ????\nYearly increase: ????\nInsurance Benefits: ????\nJazz Scene: DUH\nAVG House Rent: $2,000",
-    "status": "applied"
+    "status": "applied",
+    "lat": 33.844371,
+    "lng": -84.47405
   },
   {
     "program": "LSU SOM- New Orleans-LA",
@@ -221,7 +275,9 @@
     "city": "New Orleans",
     "state": "LA",
     "note": "Program Type: Community-based university affiliated\n1st year Positions: 9\nProgram Length: 3\nStart Date: July 1\n1st Year Salary: ????\nYearly increase: ????\nInsurance Benefits: ????\nJazz Scene: DUH\nAVG House Rent: $2,000",
-    "status": "applied"
+    "status": "applied",
+    "lat": 29.958304,
+    "lng": -90.077
   },
   {
     "program": "Boston Univ Med Car-MA",
@@ -229,7 +285,9 @@
     "city": "Boston",
     "state": "MA",
     "note": "Program Type:\n1st year Positions:\nProgram Length:\nStart Date:\n1st Year Salary:\nYearly increase:\nInsurance Benefits: \nJazz Scene: Strong, active professional jazz scene\nAVG House Rent: $7,710",
-    "status": "applied"
+    "status": "applied",
+    "lat": 42.354318,
+    "lng": -71.073449
   },
   {
     "program": "Johns Hopkins",
@@ -237,7 +295,9 @@
     "city": "Baltimore",
     "state": "MD",
     "note": "Program Type: University-based\n1st year Positions: 12\nProgram Length: 4\nStart Date: July 1\n1st Year Salary: ????\nYearly increase: ????\nInsurance Benefits: ????\nJazz Scene: supportive jazz scene and proximity to D.C. for more opportunities\nAVG House Rent: $2,273",
-    "status": "applied"
+    "status": "applied",
+    "lat": 39.296536,
+    "lng": -76.623489
   },
   {
     "program": "Maine Med Car",
@@ -245,7 +305,9 @@
     "city": "Portland",
     "state": "ME",
     "note": "Program Type: Community-based university affiliated\n1st year Positions: 10\nProgram Length: 3\nStart Date: July 1\n1st Year Salary: 71,438\nYearly increase: Yes\nInsurance Benefits: Partial Medical (you + domestic partner)\n                                Partial In and Out Patient Mental\n                                Full Group Life\n                                Partial Dental\n                                Full Disability\nJazz Scene: Somewhat — small but active jazz community\nAVG House Rent: $2,550",
-    "status": "applied"
+    "status": "applied",
+    "lat": 43.658784,
+    "lng": -70.262393
   },
   {
     "program": "Carolinas Med Ctr-NC",
@@ -253,7 +315,9 @@
     "city": "Charlotte",
     "state": "NC",
     "note": "Program Type: Community-based university affiliated\n1st year Positions: 16\nProgram Length: 3\nStart Date: June 12\n1st Year Salary: 70,528\nYearly increase: Yes\nInsurance Benefits: Full Medical (you)\n                                Partial In and Out Patient Mental\n                                Full Group Life\n                                Full Dental\n                                Full Disability\nJazz Scene: growing jazz scene\nAVG House Rent: $1,970",
-    "status": "applied"
+    "status": "applied",
+    "lat": 35.26002,
+    "lng": -80.804151
   },
   {
     "program": "Medical University of SC",
@@ -261,7 +325,9 @@
     "city": "Charleston",
     "state": "SC",
     "note": "Program Type: University-based\n1st year Positions: 10\nProgram Length: 3\nStart Date: July 1\n1st Year Salary: 61,935\nYearly increase: Yes\nInsurance Benefits: Partial Medical (you + domestic partner)\n                                Partial In and Out Patient Mental\n                                Partial Group Life\n                                Partial Dental\n                                Partial Disability\nJazz Scene: lively jazz scene\nAVG House Rent: $2,850",
-    "status": "applied"
+    "status": "applied",
+    "lat": 32.780326,
+    "lng": -79.940844
   },
   {
     "program": "Trident Medical Center-SC",
@@ -269,7 +335,9 @@
     "city": "Charleston",
     "state": "SC",
     "note": "Program Type: Community-based university affiliated\n1st year Positions: 11\nProgram Length: 3\nStart Date: July 1\n1st Year Salary: 62,566\nYearly increase: Yes\nInsurance Benefits: Partial Medical (you + domestic partner)\n                                Partial In and Out Patient Mental\n                                Partial Group Life\n                                Partial Dental\n                                Partial Disability\nJazz Scene: lively jazz scene\nAVG House Rent: $2,850",
-    "status": "applied"
+    "status": "applied",
+    "lat": 32.780326,
+    "lng": -79.940844
   },
   {
     "program": "HCA Healthcare/TriStar Nashville-TN",
@@ -277,7 +345,9 @@
     "city": "Nashville",
     "state": "TN",
     "note": "Program Type: Community-based\n1st year Positions: 12\nProgram Length: 3\nStart Date: July 1\n1st Year Salary: ????\nYearly increase: ????\nInsurance Benefits: ????\nJazz Scene: strong opportunities\nAVG House Rent: $2,229",
-    "status": "applied"
+    "status": "applied",
+    "lat": 36.165688,
+    "lng": -86.778098
   },
   {
     "program": "Vanderbilt Univ Med Car-TN",
@@ -285,7 +355,9 @@
     "city": "Nashville",
     "state": "TN",
     "note": "Program Type: University-based\n1st year Positions: 13\nProgram Length: 3\nStart Date: July 1\n1st Year Salary: 72,450\nYearly increase: Yes\nInsurance Benefits: Partial Medical (you + domestic partner)\n                                Partial In and Out Patient Mental\n                                Partial Group Life\n                                Partial Dental\n                                Partial Disability\nJazz Scene: strong opportunity\nAVG House Rent: $2,229",
-    "status": "applied"
+    "status": "applied",
+    "lat": 36.165688,
+    "lng": -86.778098
   },
   {
     "program": "U Texas at Austin Dell Medical School",
@@ -293,7 +365,9 @@
     "city": "Austin",
     "state": "TX",
     "note": "Program Type: University-based\n1st year Positions: 8\nProgram Length: 3\nStart Date: ????\n1st Year Salary: ????\nYearly increase: ????\nInsurance Benefits: ????\nJazz Scene: strong jazz scene and an active community\nAVG House Rent: $2,400",
-    "status": "applied"
+    "status": "applied",
+    "lat": 30.268335,
+    "lng": -97.741382
   },
   {
     "program": "Baylor Coll Med-Houston-TX",
@@ -301,7 +375,9 @@
     "city": "Houston",
     "state": "TX",
     "note": "Program Type: University-based\n1st year Positions: 16\nProgram Length: 3\nStart Date: June 24\n1st Year Salary: ????\nYearly increase: ????\nInsurance Benefits: ????\nJazz Scene: thriving jazz scene\nAVG House Rent: $1,900",
-    "status": "applied"
+    "status": "applied",
+    "lat": 29.813142,
+    "lng": -95.309789
   },
   {
     "program": "University of Virginia",
@@ -309,7 +385,9 @@
     "city": "Charlottesville",
     "state": "VA",
     "note": "Program Type: University-based\n1st year Positions: 12\nProgram Length: 3\nStart Date: June 17\n1st Year Salary: ????\nYearly increase: ????\nInsurance Benefits: ????\nJazz Scene: Somewhat - small but active jazz community\nAVG House Rent: $2,150",
-    "status": "applied"
+    "status": "applied",
+    "lat": 38.026588,
+    "lng": -78.48045
   },
   {
     "program": "Virginia Commonwealth U Hlth Sys",
@@ -317,6 +395,8 @@
     "city": "Richmond",
     "state": "VA",
     "note": "Program Type: University-based\n1st year Positions: 14\nProgram Length: 3\nStart Date: July 1\n1st Year Salary: 66,747\nYearly increase: Yes\nInsurance Benefits: Partial Medical (you + domestic partner)\n                                Partial In and Out Patient Mental\n                                Full Group Life\n                                Partial Dental\n                                Partial Disability\nJazz Scene: growing jazz scene\nAVG House Rent: $1,850",
-    "status": "applied"
+    "status": "applied",
+    "lat": 37.524246,
+    "lng": -77.493157
   }
 ]
