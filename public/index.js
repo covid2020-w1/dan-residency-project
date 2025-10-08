@@ -1,3 +1,5 @@
+import { produceIconUrl } from "./produceIconUrl.js"
+
 const header = document.createElement("h1")
 header.textContent = "this is coming from js"
 
@@ -22,62 +24,35 @@ try{
         //create a marker at the associated residency coordinates
         const {popUpTitle, status, lat, lng} = residency
 
-        let popupContent = ""
+        const popupDiv = document.createElement("div")
 
-        const MarkerIcon = L.Icon.extend({
-            options: {
-                shadowUrl: "images/pin-shadow.png",
-                iconSize: [20, 30],
-                shadowSize: [20, 30],
-                iconAnchor: [13, 30],
-                shadowAnchor: [4, 30],
-                popupAnchor: [0, -32]
-            }
+        popupDiv.innerHTML = `
+            <b>${popUpTitle}</b>
+            <select>
+                <option value="applied" ${status === "applied" ? "selected" : ""}>Applied</option>
+                <option value="received-interview" ${status === "interview offered" ? "selected" : ""}>Received Interview</option>
+                <option value="rejected" ${status === "rejected" ? "selected" : ""}>Rejected</option>
+            </select>                
+        `
+
+        const marker = L.marker([lat, lng], {icon: produceIconUrl(status)}).addTo(map).bindPopup(popupDiv)
+
+        const selectedElement = popupDiv.querySelector("select")
+
+        selectedElement.addEventListener("change", function(){
+
+            residency.status = this.value
+
+            marker.setIcon(produceIconUrl(this.value))
+
+            console.log(`${popUpTitle}'s status has been changed to ${this.value}`)
         })
 
-        const acceptedIcon = new MarkerIcon({iconUrl: "images/pin-applied.png"})
-        const rejectedIcon = new MarkerIcon({iconUrl: "images/pin-rejected.png"})
-        const interviewReceivedIcon = new MarkerIcon({iconUrl: "images/pin-interview_received.png"})
+    }
 
-        if(status === "applied"){
-            popupContent = `
-                <b>${popUpTitle}</b>
-                <select>
-                    <option value="applied" selected>Applied</option>
-                    <option value="received-interview">Received Interview</option>
-                    <option value="rejected">Rejected</option>
-                </select>                
-            `
-
-            L.marker([lat, lng], {icon: acceptedIcon}).addTo(map).bindPopup(popupContent)
-
-        }else if(status === "interview offered"){
-            popupContent = `
-                <b>${popUpTitle}</b>
-                <select>
-                    <option value="applied">Applied</option>
-                    <option value="received-interview" selected>Received Interview</option>
-                    <option value="rejected">Rejected</option>
-                </select>                  
-            `
-
-            L.marker([lat, lng], {icon: interviewReceivedIcon}).addTo(map).bindPopup(popupContent)
-
-        }else if(status === "rejected"){
-            popupContent = `
-                <b>${popUpTitle}</b>
-                <select>
-                    <option value="applied">Applied</option>
-                    <option value="received-interview">Received Interview</option>
-                    <option value="rejected" selected>Rejected</option>
-                </select>                      
-            `
-
-            L.marker([lat, lng], {icon: rejectedIcon}).addTo(map).bindPopup(popupContent)
-
-        }
-
-    })
+    )
 }catch(err){
     console.log(err)
 }
+
+//so we need someway to associate the marker whose status has been changed from user input to the corresponding object in json.data. maybe I can use data attributes? uuids? create some rule that says "only push this data to the object whose coordinates match the current coordinates"?
