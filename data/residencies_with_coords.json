@@ -5,7 +5,7 @@
     "city": "New Haven",
     "state": "CT",
     "note": "Program Type: University-based\n1st year Positions: 19\nProgram Length: 4 year\nStart Date: June/July\n1st Year Salary: $86,080\nYearly increase: Yes\nInsurance Benefits: Full Medical (you + domestic partner)\n                                Full In and Out Patient Mental\n                                Full Group Life\n                                Partial Dental\n                                Full Disability\nJazz Scene: ample stage time and connections without overwhelming competition\nAVG House Rent: $2,325",
-    "status": "applied",
+    "status": "interview offered",
     "lat": 41.365709,
     "lng": -72.927507
   },
@@ -315,7 +315,7 @@
     "city": "Charlotte",
     "state": "NC",
     "note": "Program Type: Community-based university affiliated\n1st year Positions: 16\nProgram Length: 3\nStart Date: June 12\n1st Year Salary: 70,528\nYearly increase: Yes\nInsurance Benefits: Full Medical (you)\n                                Partial In and Out Patient Mental\n                                Full Group Life\n                                Full Dental\n                                Full Disability\nJazz Scene: growing jazz scene\nAVG House Rent: $1,970",
-    "status": "applied",
+    "status": "rejected",
     "lat": 35.26002,
     "lng": -80.804151
   },
@@ -395,7 +395,7 @@
     "city": "Richmond",
     "state": "VA",
     "note": "Program Type: University-based\n1st year Positions: 14\nProgram Length: 3\nStart Date: July 1\n1st Year Salary: 66,747\nYearly increase: Yes\nInsurance Benefits: Partial Medical (you + domestic partner)\n                                Partial In and Out Patient Mental\n                                Full Group Life\n                                Partial Dental\n                                Partial Disability\nJazz Scene: growing jazz scene\nAVG House Rent: $1,850",
-    "status": "applied",
+    "status": "rejected",
     "lat": 37.524246,
     "lng": -77.493157
   }

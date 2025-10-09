@@ -11,11 +11,11 @@ export function produceIconUrl(status){
         }
     })
 
-    if(status === "accepted"){
+    if(status === "applied"){
         return new MarkerIcon({iconUrl: "images/pin-applied.png"})
     }else if(status === "rejected"){
         return new MarkerIcon({iconUrl: "images/pin-rejected.png"})
-    }else if(status === "interviewReceived"){
+    }else if(status === "interview offered"){
         return new MarkerIcon({iconUrl: "images/pin-interviewOffered.png"})
     }
 

@@ -28,6 +28,38 @@ const server = http.createServer( async(req, res) => {
                 }
             }
 
+        }else if(req.method === "PATCH"){
+
+            let body = ""
+
+            try{
+                for await (const chunk of req){
+                    body += chunk
+                }
+
+                const parsedBody = JSON.parse(body)
+
+                const residenciesData = await fs.readFile(path.join("data", "residencies_with_coords.json"), "utf8")
+
+                const parsedResidenciesData = JSON.parse(residenciesData)
+
+                const targetIndex = parsedResidenciesData.findIndex(r => r.lat === parsedBody.lat && r.lng === parsedBody.lng)
+
+                if(targetIndex !== -1){
+                    parsedResidenciesData[targetIndex].status = parsedBody.status
+                }
+
+                await fs.writeFile(
+                    path.join("data", "residencies_with_coords.json"),
+                    JSON.stringify(parsedResidenciesData, null, 2),
+                    "utf8"
+                )
+
+                sendResponse(res, 200, "text/html", "success: true")
+
+            }catch(err){
+                console.log(err + ": server couldn't parse the json coming from the client")
+            }
         }
     
     //serve static 

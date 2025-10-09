@@ -20,39 +20,68 @@ try{
     const response = await fetch("http://localhost:8000/api")
     const residencies = await response.json()
 
+    //loop through each residency object in the array of residencies
     residencies.forEach(residency => {
-        //create a marker at the associated residency coordinates
+
+        //deconstruct the properties from residency that you are going to use
         const {popUpTitle, status, lat, lng} = residency
 
+        //create a div element
         const popupDiv = document.createElement("div")
 
+        //put a select element inside the div element. Use ternary operators so that the current value of status coming from the data is the option pre-selected in the html
         popupDiv.innerHTML = `
             <b>${popUpTitle}</b>
             <select>
                 <option value="applied" ${status === "applied" ? "selected" : ""}>Applied</option>
-                <option value="received-interview" ${status === "interview offered" ? "selected" : ""}>Received Interview</option>
+                <option value="interview offered" ${status === "interview offered" ? "selected" : ""}>Interview Offered</option>
                 <option value="rejected" ${status === "rejected" ? "selected" : ""}>Rejected</option>
             </select>                
         `
 
+        //create a marker on the map for the given residency program's coordinates and icon status, and attach the popupDiv to it. Use a util function to return a new MarkerIcon with the correct url
         const marker = L.marker([lat, lng], {icon: produceIconUrl(status)}).addTo(map).bindPopup(popupDiv)
 
+        //select the select div inside the current popupdiv
         const selectedElement = popupDiv.querySelector("select")
 
-        selectedElement.addEventListener("change", function(){
+        //add an event listener to this select element
+        selectedElement.addEventListener("change", async function(){
 
+            //update the value of residency.status to the current value selected by the user 
             residency.status = this.value
 
+            //update the icon type based on the user selection
             marker.setIcon(produceIconUrl(this.value))
 
+            //log on the browser which program has been updated and to what status
             console.log(`${popUpTitle}'s status has been changed to ${this.value}`)
+
+            //send a request to the server to update the data with the new status.
+            try{
+                await fetch("http://localhost:8000/api", {
+                    method: "PATCH",
+                    headers: {
+                        "Content-Type": "application/json",
+                    },
+                    body: JSON.stringify({
+                        lat: lat,
+                        lng: lng,
+                        status: this.value
+                    })
+                })
+            }catch(err){
+                console.log(err)
+            }            
         })
 
     }
 
     )
 }catch(err){
-    console.log(err)
+    console.log(err + "could not get residency data from the server")
 }
 
-//so we need someway to associate the marker whose status has been changed from user input to the corresponding object in json.data. maybe I can use data attributes? uuids? create some rule that says "only push this data to the object whose coordinates match the current coordinates"?
+
+
+//just need to send the response back to the server now
