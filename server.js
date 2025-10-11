@@ -28,33 +28,42 @@ const server = http.createServer( async(req, res) => {
                 }
             }
 
+        //handle PATCH requests
         }else if(req.method === "PATCH"){
 
             let body = ""
 
+            //gather the packets of the put request containing the new status and the program name
             try{
                 for await (const chunk of req){
                     body += chunk
                 }
 
+                //the body arrives as a json string, so parse it into an object
                 const parsedBody = JSON.parse(body)
 
+                //get the existing residency data and save it
                 const residenciesData = await fs.readFile(path.join("data", "residencies_with_coords.json"), "utf8")
 
+                //the existing residency data arrives as a json string, so parse it into an object
                 const parsedResidenciesData = JSON.parse(residenciesData)
 
-                const targetIndex = parsedResidenciesData.findIndex(r => r.lat === parsedBody.lat && r.lng === parsedBody.lng)
+                //save the index of the existing residency data where the popUpTitle of the program whose status has changed matches the popUpTitle of the entry in the existing data
+                const targetIndex = parsedResidenciesData.findIndex(r => r.popUpTitle === parsedBody.popUpTitle)
 
+                //onnly if the index can be matched, update the status of the program in the existing data 
                 if(targetIndex !== -1){
                     parsedResidenciesData[targetIndex].status = parsedBody.status
                 }
 
+                //write the updated data to existing data's location
                 await fs.writeFile(
                     path.join("data", "residencies_with_coords.json"),
                     JSON.stringify(parsedResidenciesData, null, 2),
                     "utf8"
                 )
 
+                //send a msg to the client telling them whether it's successful
                 sendResponse(res, 200, "text/html", "success: true")
 
             }catch(err){

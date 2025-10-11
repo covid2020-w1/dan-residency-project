@@ -5,7 +5,7 @@
     "city": "New Haven",
     "state": "CT",
     "note": "Program Type: University-based\n1st year Positions: 19\nProgram Length: 4 year\nStart Date: June/July\n1st Year Salary: $86,080\nYearly increase: Yes\nInsurance Benefits: Full Medical (you + domestic partner)\n                                Full In and Out Patient Mental\n                                Full Group Life\n                                Partial Dental\n                                Full Disability\nJazz Scene: ample stage time and connections without overwhelming competition\nAVG House Rent: $2,325",
-    "status": "interview offered",
+    "status": "rejected",
     "lat": 41.365709,
     "lng": -72.927507
   },
@@ -45,7 +45,7 @@
     "city": "Brandon",
     "state": "FL",
     "note": "Program Type: Community-based university affiliated\n1st year Positions: 15\nProgram Length: 3\nStart Date: July 1\n1st Year Salary: 63,149\nYearly increase: Yes\nInsurance Benefits: Partial Medical (you + domestic partner)\n                                Partial In and Out Patient Mental\n                                Partial Group Life\n                                Partial Dental\n                                Partial Disability\nJazz Scene: Not really until you go to Tampa area\nAVG House Rent: $2,323",
-    "status": "applied",
+    "status": "interview offered",
     "lat": 28.119579,
     "lng": -82.451959
   },
@@ -165,7 +165,7 @@
     "city": "New Orleans",
     "state": "LA",
     "note": "Program Type: Community-based university affiliated\n1st year Positions: 7\nProgram Length: 3\nStart Date: July 1\n1st Year Salary: ????\nYearly increase: ????\nInsurance Benefits: ????\nJazz Scene: growing jazz scene\nAVG House Rent: $1,725",
-    "status": "applied",
+    "status": "interview offered",
     "lat": 29.958304,
     "lng": -90.077
   },
@@ -175,7 +175,7 @@
     "city": "Ocala",
     "state": "FL",
     "note": "Program Type: Community-based\n1st year Positions: 12\nProgram Length: 3\nStart Date: July 1\n1st Year Salary: 61,963\nYearly increase: Yes\nInsurance Benefits: Partial Medical (you + domestic partner)\n                                Partial In and Out Patient Mental\n                                Full Group Life\n                                Partial Dental\n                                Partial Disability\nJazz Scene: very limited - Branch to Jacksonville\nAVG House Rent: $1,750",
-    "status": "applied",
+    "status": "rejected",
     "lat": 29.198907,
     "lng": -82.087425
   },
@@ -235,7 +235,7 @@
     "city": "Sarasota",
     "state": "FL",
     "note": "Program Type: Community-based university affiliated\n1st year Positions: 10\nProgram Length: 3\nStart Date: July 1\n1st Year Salary: ????\nYearly increase: ????\nInsurance Benefits:  ????\nJazz Scene: thriving jazz scene\nAVG House Rent: $2,100",
-    "status": "applied",
+    "status": "interview offered",
     "lat": 27.335023,
     "lng": -82.537169
   },
@@ -265,7 +265,7 @@
     "city": "Atlanta",
     "state": "GA",
     "note": "Program Type: Community-based university affiliated\n1st year Positions: 12\nProgram Length: 4\nStart Date: July 1\n1st Year Salary: ????\nYearly increase: ????\nInsurance Benefits: ????\nJazz Scene: DUH\nAVG House Rent: $2,000",
-    "status": "applied",
+    "status": "interview offered",
     "lat": 33.844371,
     "lng": -84.47405
   },
@@ -285,7 +285,7 @@
     "city": "Boston",
     "state": "MA",
     "note": "Program Type:\n1st year Positions:\nProgram Length:\nStart Date:\n1st Year Salary:\nYearly increase:\nInsurance Benefits: \nJazz Scene: Strong, active professional jazz scene\nAVG House Rent: $7,710",
-    "status": "applied",
+    "status": "interview offered",
     "lat": 42.354318,
     "lng": -71.073449
   },
@@ -325,7 +325,7 @@
     "city": "Charleston",
     "state": "SC",
     "note": "Program Type: University-based\n1st year Positions: 10\nProgram Length: 3\nStart Date: July 1\n1st Year Salary: 61,935\nYearly increase: Yes\nInsurance Benefits: Partial Medical (you + domestic partner)\n                                Partial In and Out Patient Mental\n                                Partial Group Life\n                                Partial Dental\n                                Partial Disability\nJazz Scene: lively jazz scene\nAVG House Rent: $2,850",
-    "status": "applied",
+    "status": "rejected",
     "lat": 32.780326,
     "lng": -79.940844
   },
@@ -335,7 +335,7 @@
     "city": "Charleston",
     "state": "SC",
     "note": "Program Type: Community-based university affiliated\n1st year Positions: 11\nProgram Length: 3\nStart Date: July 1\n1st Year Salary: 62,566\nYearly increase: Yes\nInsurance Benefits: Partial Medical (you + domestic partner)\n                                Partial In and Out Patient Mental\n                                Partial Group Life\n                                Partial Dental\n                                Partial Disability\nJazz Scene: lively jazz scene\nAVG House Rent: $2,850",
-    "status": "applied",
+    "status": "interview offered",
     "lat": 32.780326,
     "lng": -79.940844
   },
@@ -345,7 +345,7 @@
     "city": "Nashville",
     "state": "TN",
     "note": "Program Type: Community-based\n1st year Positions: 12\nProgram Length: 3\nStart Date: July 1\n1st Year Salary: ????\nYearly increase: ????\nInsurance Benefits: ????\nJazz Scene: strong opportunities\nAVG House Rent: $2,229",
-    "status": "applied",
+    "status": "interview offered",
     "lat": 36.165688,
     "lng": -86.778098
   },
@@ -355,7 +355,7 @@
     "city": "Nashville",
     "state": "TN",
     "note": "Program Type: University-based\n1st year Positions: 13\nProgram Length: 3\nStart Date: July 1\n1st Year Salary: 72,450\nYearly increase: Yes\nInsurance Benefits: Partial Medical (you + domestic partner)\n                                Partial In and Out Patient Mental\n                                Partial Group Life\n                                Partial Dental\n                                Partial Disability\nJazz Scene: strong opportunity\nAVG House Rent: $2,229",
-    "status": "applied",
+    "status": "rejected",
     "lat": 36.165688,
     "lng": -86.778098
   },
@@ -365,7 +365,7 @@
     "city": "Austin",
     "state": "TX",
     "note": "Program Type: University-based\n1st year Positions: 8\nProgram Length: 3\nStart Date: ????\n1st Year Salary: ????\nYearly increase: ????\nInsurance Benefits: ????\nJazz Scene: strong jazz scene and an active community\nAVG House Rent: $2,400",
-    "status": "applied",
+    "status": "rejected",
     "lat": 30.268335,
     "lng": -97.741382
   },
@@ -375,7 +375,7 @@
     "city": "Houston",
     "state": "TX",
     "note": "Program Type: University-based\n1st year Positions: 16\nProgram Length: 3\nStart Date: June 24\n1st Year Salary: ????\nYearly increase: ????\nInsurance Benefits: ????\nJazz Scene: thriving jazz scene\nAVG House Rent: $1,900",
-    "status": "applied",
+    "status": "rejected",
     "lat": 29.813142,
     "lng": -95.309789
   },

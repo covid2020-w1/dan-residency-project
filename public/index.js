@@ -20,6 +20,29 @@ try{
     const response = await fetch("http://localhost:8000/api")
     const residencies = await response.json()
 
+    // After loading residencies, before creating markers
+    const coordinateGroups = {};
+    residencies.forEach((residency, index) => {
+        const key = `${residency.lat},${residency.lng}`;
+        if (!coordinateGroups[key]) {
+            coordinateGroups[key] = [];
+        }
+        coordinateGroups[key].push({residency, index});
+    });
+
+    // Apply offsets to duplicates
+    Object.values(coordinateGroups).forEach(group => {
+        if (group.length > 1) {
+            group.forEach((item, i) => {
+                // Small circular offset pattern
+                const angle = (i / group.length) * 2 * Math.PI;
+                const offsetDistance = 0.01; // Adjust as needed
+                item.residency.lat += Math.cos(angle) * offsetDistance;
+                item.residency.lng += Math.sin(angle) * offsetDistance;
+            });
+        }
+    });    
+
     //loop through each residency object in the array of residencies
     residencies.forEach(residency => {
 
@@ -59,14 +82,14 @@ try{
 
             //send a request to the server to update the data with the new status.
             try{
+                //send a patch request as json containing the new status and the program title to the server
                 await fetch("http://localhost:8000/api", {
                     method: "PATCH",
                     headers: {
                         "Content-Type": "application/json",
                     },
                     body: JSON.stringify({
-                        lat: lat,
-                        lng: lng,
+                        popUpTitle: popUpTitle,
                         status: this.value
                     })
                 })
