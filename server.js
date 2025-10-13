@@ -3,7 +3,7 @@ import { sendResponse } from "./utils/sendResponse.js"
 import path from "node:path"
 import fs from "node:fs/promises"
 
-const PORT = 8000
+const PORT = process.env.PORT || 8000
 
 
 const server = http.createServer( async(req, res) => {
