@@ -74,11 +74,12 @@ const server = http.createServer( async(req, res) => {
     //serve static 
     }else if(!req.url.startsWith("/api")){
         
+        const urlPath = req.url || "/"
         const __dirname = import.meta.dirname
         const pathToResource = path.join(
             __dirname, 
             "public",  
-            req.url === "/" ? "index.html" : req.url
+            urlPath === "/" ? "index.html" : urlPath
         )
 
         const ext = path.extname(pathToResource)
