@@ -8,8 +8,10 @@ const PORT = process.env.PORT || 8000
 
 const server = http.createServer( async(req, res) => {
 
+    const url = req.url || "/"
+
     //handle any api fetch requests from the client
-    if(req.url.startsWith("/api")){
+    if(url.startsWith("/api")){
 
         //handle get requests
         if(req.method === "GET"){
@@ -72,7 +74,7 @@ const server = http.createServer( async(req, res) => {
         }
     
     //serve static 
-    }else if(!req.url.startsWith("/api")){
+    }else if(!url.startsWith("/api")){
         
         const urlPath = req.url || "/"
         const __dirname = import.meta.dirname
