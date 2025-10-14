@@ -12,7 +12,7 @@ L.tileLayer(
 
 //wait for the file to fetch the data from the server
 try{
-    const response = await fetch("http://localhost:8000/api")
+    const response = await fetch("/api")
     const residencies = await response.json()
 
     // After loading residencies, before creating markers
@@ -89,7 +89,7 @@ try{
             //send a request to the server to update the data with the new status.
             try{
                 //send a patch request as json containing the new status and the program title to the server
-                await fetch("http://localhost:8000/api", {
+                await fetch("/api", {
                     method: "PATCH",
                     headers: {
                         "Content-Type": "application/json",
