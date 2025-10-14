@@ -1,8 +1,5 @@
 import { produceIconUrl } from "./produceIconUrl.js"
 
-const header = document.createElement("h1")
-header.textContent = "this is coming from js"
-
 document.body.appendChild(header)
 
 const map = L.map('map').setView([40, -100], 4)
@@ -55,6 +52,8 @@ try{
         //put a select element inside the div element. Use ternary operators so that the current value of status coming from the data is the option pre-selected in the html
         popupDiv.innerHTML = `
             <b>${popUpTitle}</b>
+            <br>
+            <br>
             <select>
                 <option value="applied" ${status === "applied" ? "selected" : ""}>Applied</option>
                 <option value="interview offered" ${status === "interview offered" ? "selected" : ""}>Interview Offered</option>
