@@ -2,8 +2,12 @@ import http from "node:http"
 import { sendResponse } from "./utils/sendResponse.js"
 import path from "node:path"
 import fs from "node:fs/promises"
+import { fileURLToPath } from 'node:url'
+import { dirname } from 'node:path'
 
 const PORT = process.env.PORT || 8000
+const __filename = fileURLToPath(import.meta.url)
+const __dirname = dirname(__filename)
 
 
 const server = http.createServer( async(req, res) => {
@@ -77,7 +81,6 @@ const server = http.createServer( async(req, res) => {
     }else if(!url.startsWith("/api")){
         
         const urlPath = req.url || "/"
-        const __dirname = import.meta.dirname
         const pathToResource = path.join(
             __dirname, 
             "public",  

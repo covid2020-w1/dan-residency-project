@@ -1,7 +1,5 @@
 import { produceIconUrl } from "./produceIconUrl.js"
 
-document.body.appendChild(header)
-
 const map = L.map('map').setView([40, -100], 4)
 
 L.tileLayer(
@@ -18,22 +16,31 @@ try{
     const residencies = await response.json()
 
     // After loading residencies, before creating markers
+    //  creates an empty object for storing diff groups of programs that share the same coordinates
     const coordinateGroups = {};
+    //for reach program...
     residencies.forEach((residency, index) => {
+        //... set each coordinate equal to var key
         const key = `${residency.lat},${residency.lng}`;
+        //if a coordinate property of coordinateGroups object does not exist, initialize a new property with the name of that coordinate and set it equal to an empty array
         if (!coordinateGroups[key]) {
             coordinateGroups[key] = [];
         }
+        //add each program and its index in the array to the object property whose name is equal to the coordinates
         coordinateGroups[key].push({residency, index});
     });
 
-    // Apply offsets to duplicates
+    // Apply offsets to duplicates. Convert the properties of coordinateGroups into an array, where for each group...
     Object.values(coordinateGroups).forEach(group => {
+        //...only if the group length is greater than 1...
         if (group.length > 1) {
+            //for each program in the group, 
             group.forEach((item, i) => {
-                // Small circular offset pattern
+                // divide the degrees of a circle by the amount of programs in a given group
                 const angle = (i / group.length) * 2 * Math.PI;
+                //set a factor by how much you want to separate the similar pins
                 const offsetDistance = 0.01; // Adjust as needed
+                //increment the latitude and longitude by that amount
                 item.residency.lat += Math.cos(angle) * offsetDistance;
                 item.residency.lng += Math.sin(angle) * offsetDistance;
             });
