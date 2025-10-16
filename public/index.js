@@ -113,4 +113,4 @@ try{
 
 
 
-//just need to send the response back to the server now
+//so now, i need someway of adding a Rank input field to the popup only if the status of that program is "Interview Offered". the user can select a bunch of numbers from a dropdown. but the range has to be the length of the array of ranked programs + 1. And if a program is assigned an existing rank, all programs ranked at that value and greater need to get push back by 1. when a program gets assigned a rank, it needs to display that information in the corresponding popup, and in a table below the map. Furthermore, there needs to be an unrank button that appears in each popup only after a rank has been assigned that allows the user to unassign a rank, in which case every program assigned a greater rank will be pulled up by 1. 
