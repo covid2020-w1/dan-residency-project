@@ -302,7 +302,7 @@
     "city": "New Orleans",
     "state": "LA",
     "note": "Program Type: Community-based university affiliated\n1st year Positions: 9\nProgram Length: 3\nStart Date: July 1\n1st Year Salary: ????\nYearly increase: ????\nInsurance Benefits: ????\nJazz Scene: DUH\nAVG House Rent: $2,000",
-    "status": "applied",
+    "status": "rejected",
     "lat": 29.958304,
     "lng": -90.077,
     "rank": null
@@ -346,7 +346,7 @@
     "city": "Charlotte",
     "state": "NC",
     "note": "Program Type: Community-based university affiliated\n1st year Positions: 16\nProgram Length: 3\nStart Date: June 12\n1st Year Salary: 70,528\nYearly increase: Yes\nInsurance Benefits: Full Medical (you)\n                                Partial In and Out Patient Mental\n                                Full Group Life\n                                Full Dental\n                                Full Disability\nJazz Scene: growing jazz scene\nAVG House Rent: $1,970",
-    "status": "rejected",
+    "status": "interview offered",
     "lat": 35.26002,
     "lng": -80.804151,
     "rank": null
@@ -371,7 +371,7 @@
     "status": "interview offered",
     "lat": 32.780326,
     "lng": -79.940844,
-    "rank": null
+    "rank": 1
   },
   {
     "program": "HCA Healthcare/TriStar Nashville-TN",

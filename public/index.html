@@ -8,14 +8,38 @@
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
     crossorigin=""/>
+    <!-- MarkerCluster CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css" />
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <h1>Daniel's residency applications</h1>
     <div id="map"></div>
+    
+    <!-- Ranking section -->
+    <div id="ranking-section" style="margin-top: 20px;">
+        <h2>Program Rankings</h2>
+        <p id="ranking-info">Programs with "interview offered" status and ranks will appear here.</p>
+        <table id="ranking-table" style="display: none; width: 100%; border-collapse: collapse;">
+            <thead>
+                <tr style="background-color: #f2f2f2;">
+                    <th style="border: 1px solid #ddd; padding: 8px;">Rank</th>
+                    <th style="border: 1px solid #ddd; padding: 8px;">Program</th>
+                    <th style="border: 1px solid #ddd; padding: 8px;">City, State</th>
+                    <th style="border: 1px solid #ddd; padding: 8px;">Actions</th>
+                </tr>
+            </thead>
+            <tbody id="ranking-table-body">
+            </tbody>
+        </table>
+    </div>
+
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
     crossorigin=""></script>
+    <!-- MarkerCluster JavaScript -->
+    <script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script>
     <script src="index.js" type="module"></script>
 </body>
 </html>

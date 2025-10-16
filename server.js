@@ -69,9 +69,14 @@ const server = http.createServer( async(req, res) => {
                 //save the index of the existing residency data where the popUpTitle of the program whose status has changed matches the popUpTitle of the entry in the existing data
                 const targetIndex = parsedResidenciesData.findIndex(r => r.popUpTitle === parsedBody.popUpTitle)
 
-                //onnly if the index can be matched, update the status of the program in the existing data 
+                //only if the index can be matched, update the status and/or rank of the program in the existing data 
                 if(targetIndex !== -1){
-                    parsedResidenciesData[targetIndex].status = parsedBody.status
+                    if(parsedBody.status) {
+                        parsedResidenciesData[targetIndex].status = parsedBody.status
+                    }
+                    if(parsedBody.rank !== undefined) {
+                        parsedResidenciesData[targetIndex].rank = parsedBody.rank
+                    }
                 }
 
                 //write the updated data to existing data's location
